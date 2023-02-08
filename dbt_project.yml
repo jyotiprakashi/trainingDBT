@@ -36,7 +36,11 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
-seed:
-  jaffle_shop:
-    schema:seed_data
+seeds:
+  dbt_training:
+    jaffle_shop:
+      +schema: seed_data
+    QWT:
+      +schema: seed_data
+
     

@@ -1,0 +1,10 @@
+version : 2
+
+seeds:
+  - name: raw_payment
+    description: "payments data for jaffle_shop"
+    docs:
+      show: true
+    config:
+      schema: seed_objects
+      
