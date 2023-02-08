@@ -37,3 +37,8 @@ models:
     example:
       materialized: view
 
+    seed:
+      dbt_training:
+      jaffle_shop:
+      schema:seed_data
+    

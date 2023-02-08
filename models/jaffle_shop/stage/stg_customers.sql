@@ -1,5 +1,5 @@
 
---{{ config (materialized ='table')}}
+{{ config (materialized ='table',schema = 'STAGE')}}
 select
     id as customer_id,
     first_name,
